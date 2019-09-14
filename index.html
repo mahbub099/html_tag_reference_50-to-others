@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>html_tag_reference_50 to others</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<p>Click on one of the text labels to toggle the related control:</p>
+	<form>
+		<fieldset>
+			<legend>Setect Gender</legend>
+			<label for="male">Male</label>
+			<input type="radio" name="gender" id="male" value="male"> <br>
+			<label for="female">Female</label>
+			<input type="radio" name="gender" id="female" value="female"><br>
+			<label for="other">Other</label>
+			<input type="radio" name="gender" id="other" value="other"><br><br>
+			<input type="submit" value="submit">
+		</fieldset>		
+	</form>
+	<main>
+		<h1>Web Browser</h1>
+		<p><b>Google Chrome, Firefox, and Internet Explorer are the most used browsers today.</b></p>
+		<article>
+			<h1>Google Chrome</h1>
+   			<p>Google Chrome is a free, open-source web browser developed by Google, released in 2008.</p>
+		</article>
+		<article>
+    		<h1>Internet Explorer</h1>
+    		<p>Internet Explorer is a free web browser from Microsoft, released in 1995.</p>
+ 		</article>
+
+  		<article>
+    		<h1>Mozilla Firefox</h1>
+    		<p>Firefox is a free, open-source web browser from Mozilla, released in 2004.</p>
+  		</article>
+	</main>
+
+	<p>Click on the sun or on one of the planets to watch it closer:</p>
+	<img src="images/planets.gif" width="150" height="150" alt="" usemap="#planetmap" >
+	<map name="planetmap">
+		<area shape="rect" coords="0,0,82,126" href="sun.htm" alt="sun">
+		<area shape="circle" coords="90,58,3" href="mercury.htm" alt="mercury">
+		<area shape="circle" coords="124,58,8" href="venus.htm" alt="venus">
+	</map>
+
+	<p>Do not forget to buy <mark>mailk</mark> today</p>
+	<script>document.write("Hello World!")</script>
+	<noscript>sorry, your browser does not support Javascript</noscript>
+	<p>A browser without support for Javascript will show the text inside the noscript element.</p>
+
+	<object data="helloworld.swf" width="150" height="150"></object>
+
+	<ol>
+		<li>Milk</li>
+		<li>coffe</li>
+		<li>tea</li>
+	</ol>
+
+	<select>
+		<optgroup label="Swedish cars">
+			<option value="volvo">Volvo</option>
+			<option value="saab">Saab</option>
+		</optgroup>
+		<optgroup label="Germas Cars">
+			<option value="mercedes">Mercedes</option>
+			<option value="audi">Audi</option>
+		</optgroup>
+	</select>
+
+	<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
+		<input type="range" id="a" value="50">100 + <input type="number" id="b" value="50">= 
+		<output name="x" for="a b"></output>	
+	</form>
+
+	<object data="horse.wav">
+		<param name="autoplay" value="true">
+	</object>
+
+	<picture>
+		<source media="(min-width: 650px)" srcset="(img_pink_flower.jgp)">
+		<source media="(min-width: 460px)" srcset="(img_img_white_flower.jgp)">
+		<img src="images/img_pink_flowers.jpg" alt="folwer" style="width:auto">	
+	</picture>
+
+	<pre>
+		Text in a pre element
+		  is displayed in a fixed-width
+		font, and it preserves
+		  both      spaces and
+l		ine breaks
+	</pre>
+
+	Downloading progress:
+	<progress value="25" max="100"></progress>
+
+	<p><b>Lorem ipsum dolor sit amet, <q>consectetur adipisicing elit</q>. Quisquam debitis iste voluptatum, ad illo vitae voluptas exercitationem iure, sed. Blanditiis!</b></p>
+
+	<p><s>My car is blue.</s></p>
+	<p>My new car is silver.</p>	
+
+	<samp>Sample output from a computer program</samp><br>
+
+	<strong>Strong text</strong><br>
+
+	<p>This text contains <sub>subscript</sub> text.</p>
+	<p>This text contains <sup>superscript</sup> text.</p>
+
+	<details>
+  		<summary>Copyright 1999-2014.</summary>
+  		<p> - by Refsnes Data. All Rights Reserved.</p>
+	</details>
+
+  	<svg width="100" height="100">
+  		<circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="red" />
+	</svg>
+
+
+	<textarea rows="4" cols="50">
+	<u>At w3schools.com</u> you will learn how to make a website. We offer free tutorials in all web development technologies.
+	</textarea>
+
+	<template>
+  		<h2>Flower</h2>
+  		<img src="img_white_flower.jpg" width="214" height="204">
+	</template>
+
+	 <tfoot>
+    	<tr>
+      		<td>Sum</td>
+      		<td>$180</td>
+    	</tr>
+  	</tfoot>
+
+  	<p>We open at <time>10:00</time> every morning.</p>
+	<p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+
+	<video width="320" height="240" controls>
+  		<source src="forrest_gump.mp4" type="video/mp4">
+  		<source src="forrest_gump.ogg" type="video/ogg">
+ 		<track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+ 		<track src="subtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
+	</video>
+
+	<var>Variable</var>
+	
+	<p>
+		To learn AJAX, you must be familiar with the XML<wbr>Http<wbr>Request Object.
+	</p>
+</body>
+</html>
